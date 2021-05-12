@@ -17,7 +17,7 @@ const Hem = () => {
                     <h3>Automation, Installation, Solceller</h3>
                     <h4>Din kompetenta elinstallatör från Degerfors</h4>
                     <p>Tveka inte att kontakta oss om du behöver hjälp, oavsett om det är stora eller små jobb</p>
-                    <NavLink className="home-contact" to="/Kontakt">Kontakta oss</NavLink> 
+                    <NavLink className="home-contact" to="/Toroma_Project/Kontakt">Kontakta oss</NavLink> 
                 </div>
             </div>
             <div className="omoss" id="omoss">
