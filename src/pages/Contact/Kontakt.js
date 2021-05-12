@@ -26,7 +26,7 @@ const Kontakt = () => {
                     </div>
                     <div className="e-post">
                         <h3 className="info-title">E-post Address</h3>
-                        <p><a href="mailto:info@toroma.se" ></a> info@toroma.se</p>
+                        <p><a href="mailto:info@toroma.se" >info@toroma.se</a></p>
                     </div>
                     <div className="faktura">
                         <h3 className="info-title">Faktura adress</h3>
@@ -36,6 +36,7 @@ const Kontakt = () => {
                         <br />751 04 Uppsala
                         <NavLink to="/Toroma_Project/pdf1"><i className="fa fa-file-pdf-o faktura-file" aria-hidden="true"></i>&nbsp; Faktureringsinformation för leverantörer </NavLink>
                         </p>
+                        
                     </div>
                     <div className="hitta">
                         <h3 className="info-title">Hitta hit</h3>

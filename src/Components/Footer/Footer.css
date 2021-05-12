@@ -78,11 +78,8 @@
   width: 100%;
   text-align: center;
   margin: 0;
-  color: #000;
-  background: linear-gradient(-45deg, #000, #fff, #000);
-}
-.footer > footer > p > strong {
-  color: #000;
+  color: #fff;
+  background-color: inherit;
 }
 .f-me {
   font-family: "Dancing Script", cursive;

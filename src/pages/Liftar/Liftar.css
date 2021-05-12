@@ -71,6 +71,10 @@
   padding: 10px;
 }
 .lift > header > section > p > a {
+  color: #b8b5b5ed;
+  transition: color 0.5s ease-in-out;
+}
+.lift > header > section > p > a:hover {
   color: var(--general-color);
 }
 .lift > .section-header {

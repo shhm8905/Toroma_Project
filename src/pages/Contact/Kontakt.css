@@ -54,14 +54,20 @@
 .e-post > p > a:hover {
   color: var(--general-color);
 }
+.address > p {
+  text-align: center;
+}
 .faktura > p > a {
   display: block;
   margin: 20px 0;
-  color: var(--general-color);
+  color: rgba(184, 181, 181, 0.93);
+  transition: color 0.5s ease-in-out;
 }
 .faktura > p > a > .faktura-file {
-  color: var(--general-color);
   font-size: 30px;
+}
+.faktura > p > a:hover {
+  color: var(--general-color);
 }
 @media screen and (max-width: 1300px) {
   .kontakt-container > h2 {
