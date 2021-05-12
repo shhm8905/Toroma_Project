@@ -9,7 +9,7 @@ const Bread = () => {
             <ul className="bread-nav">
                 <h1 className="bread-title">Toroma</h1>
                 <li className="lis">
-                    <NavLink className="a" to="/Toroma_Project/" >Hem</NavLink>
+                    <NavLink className="a" exact to="/Toroma_Project/" >Hem</NavLink>
                 </li>
                 <li className="lis">
                     <NavLink className="a" to="/Toroma_Project/personal" >Personal</NavLink>
