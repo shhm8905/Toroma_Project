@@ -34,7 +34,7 @@ const Kontakt = () => {
                         <br />Fack 2202
                         <br />Box 226
                         <br />751 04 Uppsala
-                        <NavLink to="/Toroma_Project/pdf1" target="_blank"><i className="fa fa-file-pdf-o faktura-file" aria-hidden="true"></i>&nbsp; Faktureringsinformation för leverantörer </NavLink>
+                        <NavLink to="/Toroma_Project/pdf1"><i className="fa fa-file-pdf-o faktura-file" aria-hidden="true"></i>&nbsp; Faktureringsinformation för leverantörer </NavLink>
                         </p>
                         
                     </div>

@@ -173,7 +173,7 @@ const Tjanster = () => {
                             <li>Laddbox monteras på vägg.</li>
                             <li>Ledig plats finns i elcentral för säkringar och jordfelsbrytare för laddboxen  </li>
                             <p>Längre kabeldragning över 10m tillkommer:<br/>- 16A 1-fas eller 3-fas, 130kr/m inkl. arbetstid.<br/><br/><span>Obs !  I alla priserna ör grön rot medräknat.</span></p>
-                            <NavLink to="/Toroma_Project/pdf" target="_blank"><i className="fa fa-file-pdf-o garo-file" aria-hidden="true"></i>&nbsp; Manual Garo Laddbox </NavLink>
+                            <NavLink to="/Toroma_Project/pdf"><i className="fa fa-file-pdf-o garo-file" aria-hidden="true"></i>&nbsp; Manual Garo Laddbox </NavLink>
                         </ul>
                         <div className="garo-img">
                             <img alt="im" data-aos="fade-left" src={Ladd4} />
