@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "68907b6bc3d5534161b7e1a5f6589a7b",
+    "revision": "c3094e4526270ea5c6b2e7e60c63555f",
     "url": "/Toroma_Project/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Toroma_Project/static/css/2.7abef457.chunk.css"
   },
   {
-    "revision": "82c62519e042afaca3d7",
-    "url": "/Toroma_Project/static/css/main.fa506bc6.chunk.css"
+    "revision": "e4f2b2108c1656a7ff22",
+    "url": "/Toroma_Project/static/css/main.126f2de1.chunk.css"
   },
   {
     "revision": "4a9d6cadf4abc303351e",
     "url": "/Toroma_Project/static/js/2.3924ee27.chunk.js"
   },
   {
-    "revision": "82c62519e042afaca3d7",
+    "revision": "e4f2b2108c1656a7ff22",
     "url": "/Toroma_Project/static/js/main.4890ffef.chunk.js"
   },
   {
