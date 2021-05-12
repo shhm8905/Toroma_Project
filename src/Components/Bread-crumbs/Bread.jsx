@@ -12,13 +12,13 @@ const Bread = () => {
                     <NavLink className="a" exact to="/" >Hem</NavLink>
                 </li>
                 <li className="lis">
-                    <NavLink className="a" to="/personal" >Personal</NavLink>
+                    <NavLink className="a" to="/Toroma_Project/personal" >Personal</NavLink>
                 </li>
                 <li className="lis">
-                    <NavLink className="a" to="/liftar" >Liftar</NavLink>
+                    <NavLink className="a" to="/Toroma_Project/liftar" >Liftar</NavLink>
                 </li>
                 <li className="lis">
-                    <NavLink className="a" to="/kontakt" >Kontakt</NavLink>
+                    <NavLink className="a" to="/Toroma_Project/kontakt" >Kontakt</NavLink>
                 </li>
             </ul>
         </div>

@@ -31,11 +31,11 @@ const App =()=> {
             <BrowserRouter>
                 <Switch>
                     <Route exact path="/" component={Hem} />
-                    <Route path="/liftar" component={Liftar} />
-                    <Route path="/personal" component={Personal} />
-                    <Route path="/kontakt" component={Kontakt} />
-                    <Route path="/pdf" component={Pdf} />
-                    <Route path="/pdf1" component={Pdf1} />
+                    <Route path="/Toroma_Project/liftar" component={Liftar} />
+                    <Route path="/Toroma_Project/personal" component={Personal} />
+                    <Route path="/Toroma_Project/kontakt" component={Kontakt} />
+                    <Route path="/Toroma_Project/pdf" component={Pdf} />
+                    <Route path="/Toroma_Project/pdf1" component={Pdf1} />
                 </Switch>
                 <Footer/>  
             </BrowserRouter>
