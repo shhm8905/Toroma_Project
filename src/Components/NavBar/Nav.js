@@ -28,7 +28,7 @@ const Nav = () => {
             <label className="label" htmlFor="box"></label>
 
             <ul className="nav">
-                <li className="li"><NavLink className="a" exact to="/">Hem</NavLink></li>
+                <li className="li"><NavLink className="a" to="/Toroma_Project/">Hem</NavLink></li>
                 <li className="li">
                     <Link className="a" smooth={true} duration={2000} offset={-50} to="omoss">Om oss</Link>
                 </li>
@@ -57,9 +57,9 @@ const Nav = () => {
                         </li>
                     </ul>
                 </li>
-                <li className="li"><NavLink className="a" to="/Personal">Personal</NavLink></li>
-                <li className="li"><NavLink className="a" to="/Kontakt">Kontakt</NavLink></li>
-                <li className="li"><NavLink className="a" to="/Liftar">Liftar</NavLink></li>
+                <li className="li"><NavLink className="a" to="/Toroma_Project/Personal">Personal</NavLink></li>
+                <li className="li"><NavLink className="a" to="/Toroma_Project/Kontakt">Kontakt</NavLink></li>
+                <li className="li"><NavLink className="a" to="/Toroma_Project/Liftar">Liftar</NavLink></li>
             </ul>
         
             

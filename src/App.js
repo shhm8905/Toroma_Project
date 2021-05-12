@@ -30,7 +30,7 @@ const App =()=> {
             <Up/>
             <BrowserRouter>
                 <Switch>
-                    <Route path="/Toroma_Project/" component={Hem} />
+                    <Route exact path="/Toroma_Project/" component={Hem} />
                     <Route path="/Toroma_Project/liftar" component={Liftar} />
                     <Route path="/Toroma_Project/personal" component={Personal} />
                     <Route path="/Toroma_Project/kontakt" component={Kontakt} />
