@@ -1,0 +1,34 @@
+.upIcon {
+  position: fixed;
+  top: 80vh;
+  right: 30px;
+  background-color: var(--general-color);
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 300;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+  animation: scrolling 1s ease-in-out infinite;
+}
+.upIcon:hover {
+  background-color: #fff;
+}
+.upIcon:hover .icon {
+  color: var(--general-color);
+}
+.icon {
+  color: #fff;
+  font-size: 40px;
+}
+@keyframes scrolling {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 10px);
+  }
+}

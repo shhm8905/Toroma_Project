@@ -1,0 +1,249 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+.slider {
+  position: relative;
+}
+.slider-container {
+  width: 100%;
+  height: 60vh;
+  background-image: url(../../images/img1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.imgs {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.slider-content {
+  width: 30%;
+  height: 55vh;
+  padding: 20px;
+  background-color: rgb(0 0 0 / 95%);
+  text-align: center;
+  border-radius: 10px;
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.slider-content.active {
+  display: block;
+  animation: fade 2s ease-in-out;
+}
+.img {
+  width: 98%;
+  height: 300px;
+  margin: 0 auto;
+}
+.slider-title {
+  width: 98%;
+  font-size: 16px;
+  margin-top: 20px;
+  color: #eee;
+}
+.left-icon {
+  position: absolute;
+  top: 50%;
+  left: 200px;
+  font-size: 50px;
+  color: #fff;
+  z-index: 3;
+  transition: transform, color 0.5s ease-in-out;
+  cursor: pointer;
+}
+.right-icon {
+  position: absolute;
+  top: 50%;
+  right: 200px;
+  font-size: 50px;
+  color: #fff;
+  z-index: 4;
+  transition: color 0.5s ease-in-out;
+  cursor: pointer;
+}
+.right-icon:hover {
+  color: var(--general-color);
+  transform: scale(1.2);
+}
+.left-icon:hover {
+  color: var(--general-color);
+  transform: scale(1.2);
+}
+.ttb {
+  position: relative;
+}
+.ttb::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 3;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+.slider-content:hover.ttb::after {
+  opacity: 1;
+}
+.zoom-icon {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 40px;
+  z-index: 4;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: color, opacity, visibility, top, 0.5s ease-in-out;
+}
+.zoom-icon:hover {
+  color: var(--general-color);
+}
+.slider-content:hover .zoom-icon {
+  opacity: 1;
+  visibility: visible;
+  top: 50%;
+}
+.imgWind {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(0, 0, 0);
+  background-attachment: fixed;
+  z-index: 200;
+  display: none;
+}
+.imgWind.active {
+  display: block;
+}
+.closeS {
+  z-index: 201;
+  color: var(--general-color);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 40px;
+  transition: color 0.5s ease-in-out;
+}
+.closeS:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
+.newImg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60vw;
+  height: 80vh;
+  border-radius: 10px;
+  display: none;
+}
+.newImg.active {
+  display: block;
+  animation: fade 1s ease-in-out;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0.08;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .slider-content {
+    width: 45%;
+  }
+  .title-mg {
+    font-size: 30px;
+    margin: 50px auto;
+  }
+  .slider-container > .right-icon,
+  .imgWind > .right-icon {
+    right: 50px;
+  }
+  .slider-container > .left-icon,
+  .imgWind > .left-icon {
+    left: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .slider-content {
+    width: 60%;
+  }
+  .title-mg {
+    font-size: 25px;
+  }
+  .slider-container > .right-icon,
+  .imgWind > .right-icon {
+    right: 30px;
+    font-size: 40px;
+  }
+  .imgWind > .right-icon,
+  .imgWind > .left-icon {
+    color: dodgerblue;
+  }
+  .slider-container > .left-icon,
+  .imgWind > .left-icon {
+    left: 30px;
+    font-size: 40px;
+  }
+  .slider-title {
+    padding: 10px;
+    margin-bottom: 0;
+  }
+  .newImg {
+    border-radius: unset;
+    width: 100vw;
+    height: 65vh;
+  }
+}
+@media screen and (max-width: 500px) {
+  .title-mg {
+    font-size: 20px;
+    margin: 30px auto;
+  }
+  .slider-content {
+    width: 99%;
+  }
+  .slider-container > .right-icon,
+  .slider-container > .left-icon {
+    font-size: 30px;
+    color: lightslategray;
+  }
+  .imgWind > .right-icon {
+    right: 10px;
+    font-size: 30px;
+  }
+  .imgWind > .left-icon {
+    left: 10px;
+    font-size: 30px;
+  }
+  .newImg {
+    height: 30vh;
+  }
+  .img {
+    height: 200px;
+  }
+  .slider-content {
+    height: 43vh;
+  }
+  .slider-container {
+    height: 42vh;
+  }
+}

@@ -1,0 +1,46 @@
+.bread {
+  overflow: hidden;
+}
+.bread > .bread-nav {
+  display: block;
+  background-color: #000;
+  width: 50%;
+  margin: 30px auto;
+  border: 1px solid var(--general-color);
+  border-radius: 10px;
+}
+.bread > .bread-nav > .bread-title {
+  color: var(--general-color);
+  display: inline-block;
+  text-align: left;
+  font-family: "Dancing Script", cursive;
+  padding: 10px 200px 0px 30px;
+}
+.bread > .bread-nav > .lis {
+  display: inline-block;
+}
+@media screen and (max-width: 1300px) {
+  .bread > .bread-nav {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bread > .bread-nav {
+    width: 90%;
+  }
+  .bread > .bread-nav > .bread-title {
+    padding: 10px 50px 0px 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .bread > .bread-nav {
+    width: 99%;
+  }
+  .bread > .bread-nav > .bread-title {
+    color: rgb(148, 148, 148);
+    padding: 0 20px 0 10px;
+  }
+  .bread-nav > .lis > .a {
+    padding: 24px 5px;
+  }
+}

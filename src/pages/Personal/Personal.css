@@ -1,0 +1,129 @@
+.s-padding {
+  padding: 30px 0;
+}
+.section-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section-title {
+  font-size: 50px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.section-line {
+  display: block;
+  height: 6px;
+  width: 30%;
+  background-color: var(--general-color);
+  margin: 0 auto 70px auto;
+}
+.tb {
+  position: relative;
+}
+.tb::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  transition: height 0.8s;
+  z-index: -1;
+}
+.tb:hover::after {
+  height: 100%;
+}
+.team-item.tb {
+  z-index: 0;
+}
+.team-content {
+  overflow: hidden;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 420px);
+  grid-template-rows: repeat(4, 555px);
+  justify-content: center;
+  gap: 20px;
+}
+.team-item {
+  background-color: #e8e8e8;
+  text-align: center;
+  padding: 40px 10px;
+  border-radius: 10px;
+}
+.team-img {
+  width: 90%;
+  height: 80%;
+  margin: auto;
+  position: relative;
+}
+.team-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.5s, opacity 0.5s;
+}
+.team-item:hover .team-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+.team-overlay a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background-color: var(--general-color);
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+.team-overlay a i {
+  line-height: 40px;
+}
+.team-info-title {
+  color: #222;
+  margin: 40px 0 20px 0;
+  font-size: 25px;
+  text-transform: capitalize;
+  transition: color 0.5s;
+}
+.team-info-text {
+  color: #999;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: color 0.5s;
+  padding-bottom: 20px;
+}
+.team-item:hover .team-info-title {
+  color: #fff;
+}
+.team-item:hover .team-info-text {
+  color: var(--general-color);
+}
+@media screen and (max-width: 1300px) {
+  .team-content {
+    grid-template-columns: repeat(2, 420px);
+    grid-template-rows: repeat(7, 555px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .team-content {
+    grid-template-columns: repeat(1, 420px);
+    grid-template-rows: repeat(14, 555px);
+  }
+}
+@media screen and (max-width: 500px) {
+  .team-content {
+    grid-template-columns: repeat(1, 100%);
+    padding: 0;
+  }
+  .team-item {
+    border-radius: unset;
+  }
+}

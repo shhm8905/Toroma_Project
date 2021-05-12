@@ -1,0 +1,87 @@
+.message {
+  width: 90%;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #1b1a1c;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%231b1a1c' cx='50' cy='0' r='50'/%3E%3Cg fill='%231d1c1e' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%231f1e20' cx='50' cy='100' r='50'/%3E%3Cg fill='%23222122' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23242325' cx='50' cy='200' r='50'/%3E%3Cg fill='%23262527' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23282829' cx='50' cy='300' r='50'/%3E%3Cg fill='%232b2a2b' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%232d2c2e' cx='50' cy='400' r='50'/%3E%3Cg fill='%232f2f30' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23323132' cx='50' cy='500' r='50'/%3E%3Cg fill='%23343334' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23363637' cx='50' cy='600' r='50'/%3E%3Cg fill='%23393839' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%233b3b3c' cx='50' cy='700' r='50'/%3E%3Cg fill='%233e3d3e' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23404040' cx='50' cy='800' r='50'/%3E%3Cg fill='%23434243' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23454545' cx='50' cy='900' r='50'/%3E%3Cg fill='%23474748' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%234a4a4a' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
+}
+.message > input {
+  width: 100%;
+  padding: 10px;
+}
+.message > textarea {
+  width: 100%;
+  padding: 10px;
+}
+.message > label {
+  display: block;
+  padding: 10px;
+  text-align: left;
+  color: #fff;
+}
+.message > button {
+  padding: 20px;
+  background-color: var(--general-color);
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  width: 30%;
+  margin: 30px 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.message > button:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+.errormessage {
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+.message-title {
+  width: 90%;
+  line-height: 1.5;
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  background: #62b6ff1c;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+@media screen and (max-width: 1300px) {
+  .message > button {
+    width: 50%;
+    margin-bottom: 0;
+  }
+  .message {
+    width: 60%;
+    margin: 30px auto;
+  }
+  .message-title {
+    width: 80%;
+    margin: 30px auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .message-title {
+    font-size: 20px;
+    width: 90%;
+  }
+  .message {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .message-title {
+    font-size: 18px;
+    width: 99%;
+  }
+  .message {
+    width: 99%;
+  }
+}

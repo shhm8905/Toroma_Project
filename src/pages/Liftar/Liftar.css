@@ -1,0 +1,138 @@
+.lift > header > h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+}
+.lift > header > .ltr {
+  width: 30%;
+}
+.container-liftar {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(3, 539px);
+  grid-template-rows: repeat(2, auto);
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.bomlift,
+.skylift,
+.saxlift,
+.lila-saxlift {
+  display: block;
+  width: 100%;
+  height: 350px;
+  margin: 0 auto;
+}
+.text-block1,
+.text-block2,
+.text-block3,
+.text-block4 {
+  background-color: rgba(40, 43, 49, 0.753);
+  padding: 20px;
+  border-radius: 10px;
+}
+.ul1 {
+  font-size: 18px;
+  margin: auto;
+  line-height: 1.5;
+  color: #c0c0c0ed;
+  text-align: left;
+  background: #62b6ff1c;
+  padding: 30px 25px;
+  border-radius: 5px;
+  list-style: none;
+  margin-bottom: 25px;
+}
+.li1 {
+  padding: 7px 4px;
+  position: relative;
+}
+.li1::after {
+  content: "";
+  position: absolute;
+  left: -11px;
+  top: 15px;
+  height: 7px;
+  width: 7px;
+  background-color: var(--general-color);
+  border-radius: 50%;
+}
+.li1 > ul {
+  list-style: inside;
+}
+.lift > header > section > p {
+  text-align: center;
+}
+.lift > header > section > p > b {
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+.lift > header > section > p > a {
+  color: var(--general-color);
+}
+.lift > .section-header {
+  padding: 60px 0;
+}
+@media screen and (max-width: 1300px) {
+  .lift > header > section > p > b {
+    font-size: 25px;
+  }
+  .container-liftar {
+    grid-template-columns: repeat(2, 539px);
+  }
+  .text-block1 > h2,
+  .text-block2 > h2,
+  .text-block3 > h2,
+  .text-block4 > h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .container-liftar {
+    grid-template-columns: repeat(1, 80%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .lift > header > section > p > b {
+    font-size: 20px;
+  }
+  .lift > .section-header {
+    padding: 30px 0;
+  }
+  .text-block1 > h2,
+  .text-block2 > h2,
+  .text-block3 > h2,
+  .text-block4 > h2 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .lift > header > section > p > b {
+    font-size: 18px;
+  }
+  .lift > header > section > p {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .container-liftar {
+    grid-template-columns: repeat(1, 100%);
+  }
+  .lift > .section-header {
+    padding-bottom: 0;
+  }
+  .text-block1 > h2,
+  .text-block2 > h2,
+  .text-block3 > h2,
+  .text-block4 > h2 {
+    font-size: 20px;
+  }
+  .bomlift,
+  .skylift,
+  .saxlift,
+  .lila-saxlift {
+    height: 250px;
+  }
+}

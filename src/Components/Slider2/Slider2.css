@@ -1,0 +1,235 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+.slider1 {
+  position: relative;
+}
+.slider-container1 {
+  position: relative;
+  overflow: hidden;
+}
+.imgs1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.slider-content1 {
+  width: 60%;
+  height: 60vh;
+  z-index: 2;
+  margin: 0 auto;
+  display: none;
+}
+.slider-content1.active1 {
+  display: block;
+  animation: fade 2s ease-in-out;
+}
+.img1 {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.slider-title1 {
+  width: 500px;
+  font-size: 16px;
+  margin-top: 20px;
+  color: #eee;
+}
+.left-icon1 {
+  position: absolute;
+  top: 50%;
+  left: 200px;
+  font-size: 50px;
+  color: #fff;
+  z-index: 3;
+  transition: transform, color 0.5s ease-in-out;
+  cursor: pointer;
+}
+.right-icon1 {
+  position: absolute;
+  top: 50%;
+  right: 200px;
+  font-size: 50px;
+  color: #fff;
+  z-index: 4;
+  transition: color 0.5s ease-in-out;
+  cursor: pointer;
+}
+.right-icon1:hover {
+  color: var(--general-color);
+  transform: scale(1.2);
+}
+.left-icon1:hover {
+  color: var(--general-color);
+  transform: scale(1.2);
+}
+.ttb1 {
+  position: relative;
+}
+.ttb1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 3;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+.slider-content1:hover.ttb1::after {
+  opacity: 1;
+}
+.zoom-icon1 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 40px;
+  z-index: 4;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: color, opacity, visibility, top, 0.5s ease-in-out;
+}
+.zoom-icon1:hover {
+  color: var(--general-color);
+}
+.slider-content1:hover .zoom-icon1 {
+  opacity: 1;
+  visibility: visible;
+  top: 50%;
+}
+.imgWind1 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(0, 0, 0);
+  background-attachment: fixed;
+  z-index: 200;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.imgWind1.active1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.closeS1 {
+  z-index: 201;
+  color: var(--general-color);
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 40px;
+  transition: color 0.5s ease-in-out;
+}
+.closeS1:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
+.newImg1 {
+  width: 60vw;
+  height: 80vh;
+  z-index: 202;
+  display: none;
+}
+.newImg1.active1 {
+  display: block;
+  animation: fade 2s ease-in-out;
+}
+.s-title1 {
+  text-align: center;
+  width: 60%;
+  z-index: 2;
+}
+@media screen and (max-width: 1300px) {
+  .slider-content1 {
+    width: 80%;
+  }
+  .slider-container1 > .left-icon1 {
+    left: 40px;
+  }
+  .slider-container1 > .right-icon1 {
+    right: 40px;
+  }
+  .newImg1 {
+    width: 80vw;
+  }
+  .imgWind1 > .left-icon1 {
+    color: #000;
+    left: 130px;
+  }
+  .imgWind1 > .right-icon1 {
+    color: #000;
+    right: 130px;
+  }
+  .imgWind1 > .closeS1 {
+    right: 30px;
+    top: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .slider-content1 {
+    width: 90%;
+    height: 40vh;
+  }
+  .slider-container1 > .left-icon1,
+  .slider-container1 > .right-icon1 {
+    font-size: 40px;
+    top: 45%;
+  }
+  .newImg1 {
+    width: 90vw;
+    height: 50vh;
+  }
+  .imgWind1 > .left-icon1 {
+    font-size: 40px;
+    left: 50px;
+  }
+  .imgWind1 > .right-icon1 {
+    font-size: 40px;
+    right: 50px;
+  }
+  .imgWind1 > .closeS1 {
+    right: 20px;
+    top: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .slider-content1 {
+    width: 99%;
+    height: 30vh;
+  }
+  .slider-container1 > .left-icon1 {
+    left: 10px;
+    font-size: 30px;
+  }
+  .slider-container1 > .right-icon1 {
+    right: 10px;
+    font-size: 30px;
+  }
+  .newImg1 {
+    width: 99vw;
+    height: 30vh;
+  }
+  .imgWind1 > .left-icon1 {
+    left: 10px;
+    font-size: 30px;
+  }
+  .imgWind1 > .right-icon1 {
+    right: 10px;
+    font-size: 30px;
+  }
+  .imgWind1 > .closeS1 {
+    right: 10px;
+    top: 10px;
+    font-size: 30px;
+  }
+}

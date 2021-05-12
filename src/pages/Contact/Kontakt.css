@@ -1,0 +1,99 @@
+.kontakt-container {
+  position: relative;
+  padding-bottom: 50px;
+}
+.kontakt-container > h2 {
+  padding: 100px 0;
+  font: 3em message-box;
+  text-align: center;
+}
+.kontakt-container > p {
+  text-align: center;
+  width: 40%;
+}
+.kontakt-container > .ltr {
+  width: 30%;
+  margin: auto;
+}
+.kontakt-container img {
+  top: 50px;
+  width: 354px;
+  height: 300px;
+  margin-left: 10px;
+}
+.info {
+  text-align: center;
+}
+.info-title {
+  color: #e0e0e0;
+  padding: 10px;
+  font-size: 25px;
+}
+.errormessage {
+  color: #ffab91;
+}
+.map {
+  width: 60%;
+  margin: auto;
+}
+.message-content {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  justify-content: center;
+}
+.ring > p > a {
+  color: var(--general-color);
+  display: block;
+  text-align: center;
+}
+.faktura > p > a {
+  display: block;
+  margin: 20px 0;
+  color: var(--general-color);
+}
+.faktura > p > a > .faktura-file {
+  color: var(--general-color);
+  font-size: 30px;
+}
+@media screen and (max-width: 1300px) {
+  .kontakt-container > h2 {
+    font-size: 30px;
+    padding: 50px 0;
+  }
+  .message-content {
+    display: block;
+  }
+  p {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .kontakt-container > h2 {
+    font-size: 25px;
+  }
+  .kontakt-container .info-title {
+    font-size: 20px;
+  }
+  p {
+    width: 90%;
+  }
+  .map {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .kontakt-container > h2 {
+    font-size: 20px;
+    padding: 30px 0;
+  }
+  .kontakt-container .info-title {
+    font-size: 18px;
+  }
+  p {
+    width: 99%;
+  }
+  .map {
+    width: 99%;
+  }
+}

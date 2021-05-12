@@ -1,0 +1,435 @@
+.tjanster {
+  width: 100%;
+  margin: auto;
+  background-color: inherit;
+  text-align: center;
+  position: relative;
+}
+.installation > ul {
+  font-size: 18px;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 1.5;
+  color: #c0c0c0ed;
+  text-align: left;
+  background: #62b6ff1c;
+  padding: 30px 0 30px 40px;
+  border-radius: 5px;
+  list-style: none;
+  margin-bottom: 60px;
+}
+.installation > ul > li {
+  padding: 7px 5px;
+  position: relative;
+}
+.installation > ul > li::after {
+  content: "";
+  position: absolute;
+  left: -11px;
+  top: 15px;
+  height: 10px;
+  width: 10px;
+  background-color: var(--general-color);
+  border-radius: 50%;
+}
+.video {
+  width: 60vw;
+  height: 60vh;
+  margin: 60px auto;
+}
+.kamera {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-areas: "conten img";
+  margin: 100px 0;
+}
+.kamera-content {
+  grid-area: conten;
+}
+.kamera-img {
+  grid-area: img;
+  display: grid;
+  grid-template-columns: repeat(1, 90%);
+  grid-template-rows: 400px 476px;
+  gap: 20px 0;
+}
+.kamera-content > .video {
+  width: 45vw;
+}
+.service > ul {
+  font-size: 18px;
+  width: 80%;
+  margin: auto;
+  line-height: 1.5;
+  color: #c0c0c0ed;
+  text-align: left;
+  background: #62b6ff1c;
+  padding: 30px 0 30px 40px;
+  border-radius: 5px;
+  list-style: none;
+  margin-bottom: 60px;
+}
+.service > ul > h4 {
+  margin-bottom: 20px;
+}
+.service > ul > li {
+  padding: 7px 5px;
+  position: relative;
+}
+.service > ul > li::after {
+  content: "";
+  position: absolute;
+  left: -11px;
+  top: 15px;
+  height: 10px;
+  width: 10px;
+  background-color: var(--general-color);
+  border-radius: 50%;
+}
+.ladd > .ladd-title {
+  background-image: url("./images/Ladd-img/ladd1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 30px;
+  color: rgb(0, 0, 0);
+  position: relative;
+}
+.ladd > h2 {
+  margin: 80px 0;
+}
+.easee-content {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 68% 30%;
+  justify-items: center;
+  margin: 100px 0;
+  grid-template-areas:
+    "ease img"
+    "ul img";
+}
+.easee {
+  grid-area: ease;
+}
+.easee > h1 {
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+  font-size: 45px;
+}
+.easee > p {
+  width: 80%;
+}
+.easee-content > ul {
+  width: 80%;
+  grid-area: ul;
+  font-size: 18px;
+  margin: 0;
+  line-height: 1.5;
+  color: #c0c0c0ed;
+  text-align: left;
+  background: #62b6ff1c;
+  padding: 30px 0 30px 40px;
+  border-radius: 5px;
+  list-style: none;
+  margin-bottom: 60px;
+}
+.easee-content > ul > p {
+  margin: 20px 0;
+}
+.easee-content > ul > p > span {
+  font-weight: bolder;
+  color: #fff;
+}
+.easee-content > ul > li {
+  padding: 7px 5px;
+  position: relative;
+}
+.easee-content > ul > li::after {
+  content: "";
+  position: absolute;
+  left: -11px;
+  top: 15px;
+  height: 10px;
+  width: 10px;
+  background-color: var(--general-color);
+  border-radius: 50%;
+}
+.easee-content > .easee-img {
+  grid-area: img;
+  display: grid;
+  grid-template-rows: 371px 944px 500px;
+  grid-template-columns: repeat(1, 100%);
+  gap: 20px 0;
+}
+.easee-content > .easee-img > img {
+  border-radius: 10px;
+}
+.garo-content {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 77% 21%;
+  justify-items: center;
+  margin: 100px 0;
+  grid-template-areas:
+    "ease img"
+    "ul img";
+}
+.garo > h1 {
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+  margin-top: 98px;
+  font-size: 45px;
+}
+.garo > .ltr::after {
+  width: 30%;
+}
+.garo-content > ul {
+  width: 80%;
+  grid-area: ul;
+  font-size: 18px;
+  margin: 0;
+  line-height: 1.5;
+  color: #c0c0c0ed;
+  text-align: left;
+  background: #62b6ff1c;
+  padding: 30px 0 30px 40px;
+  border-radius: 5px;
+  list-style: none;
+  margin-bottom: 60px;
+}
+.garo-content > ul > p {
+  margin: 20px 0;
+}
+.garo-content > ul > p > span {
+  font-weight: bolder;
+  color: #fff;
+}
+.garo-content > ul > li {
+  padding: 7px 5px;
+  position: relative;
+}
+.garo-content > ul > li::after {
+  content: "";
+  position: absolute;
+  left: -11px;
+  top: 15px;
+  height: 10px;
+  width: 10px;
+  background-color: var(--general-color);
+  border-radius: 50%;
+}
+.garo-content > ul > a {
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 20px;
+}
+.garo-content > ul > a > .garo-file {
+  color: var(--general-color);
+  font-size: 30px;
+}
+.garo-content > .garo-img {
+  grid-area: img;
+  display: grid;
+  grid-template-rows: 334px 487px 378px;
+  grid-template-columns: repeat(1, 100%);
+  gap: 20px 0;
+}
+.garo-content > .garo-img > img {
+  border-radius: 10px;
+}
+@media screen and (max-width: 1300px) {
+  .tjanster > h1,
+  .ladd > .ladd-title,
+  .easee > h1 {
+    font-size: 30px;
+  }
+  .automation > h2,
+  .solceller > h2,
+  .installation > h2,
+  .kamera-content > h2,
+  .service > h2,
+  .ladd > h2 {
+    font-size: 25px;
+  }
+  .automation > p,
+  .solceller > p,
+  .kamera-content > p,
+  .easee > p,
+  .easee-content > ul > p,
+  .garo-content > ul > p {
+    width: 80%;
+  }
+  .solceller > .video {
+    width: 80%;
+  }
+  .installation > ul,
+  .service > ul,
+  .easee-content > ul,
+  .garo-content > ul {
+    width: 80%;
+  }
+  .installation > ul > h2 {
+    font-size: 20px;
+  }
+  .kamera {
+    grid-template-columns: 70% 30%;
+  }
+  .kamera-img {
+    grid-template-rows: 281px 423px;
+  }
+  .kamera-content > .video {
+    width: 80%;
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  .tjanster > h1,
+  .ladd > .ladd-title,
+  .easee > h1,
+  .garo > h1 {
+    font-size: 25px;
+  }
+  .automation > h2,
+  .solceller > h2,
+  .installation > h2,
+  .kamera-content > h2,
+  .service > h2,
+  .ladd > h2,
+  .easee-content > ul > h2 {
+    font-size: 20px;
+  }
+  .automation > p,
+  .solceller > p,
+  .kamera-content > p,
+  .easee > p,
+  .easee-content > ul > p,
+  .garo-content > ul > p {
+    width: 90%;
+  }
+  .solceller > .video {
+    width: 90%;
+    height: 50vh;
+  }
+  .installation > ul,
+  .service > ul,
+  .easee-content > ul,
+  .garo-content > ul {
+    width: 90%;
+  }
+  .installation > ul > h2 {
+    font-size: 18px;
+  }
+  .kamera-content > .video {
+    width: 90%;
+  }
+  .kamera-content > p {
+    margin-bottom: 15px;
+  }
+  .kamera {
+    display: block;
+    margin: 30px 0;
+  }
+  .kamera-content > .video {
+    width: 90%;
+    height: 50vh;
+  }
+  .kamera-img {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  .kamera-img > img {
+    height: 40vh;
+  }
+  .ladd > .ladd-title {
+    padding: 20px;
+  }
+  .easee-content,
+  .garo-content {
+    display: block;
+    margin: 0;
+  }
+  .easee-img,
+  .garo-img {
+    display: block;
+  }
+  .easee-content > ul,
+  .garo-content > ul {
+    margin: 10px auto;
+  }
+  .easee-content > .easee-img > img,
+  .garo-content > .garo-img > img {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .tjanster > h1,
+  .ladd > .ladd-title,
+  .easee > h1,
+  .garo > h1 {
+    font-size: 20px;
+    margin: 30px auto;
+  }
+  .automation > h2,
+  .solceller > h2,
+  .installation > h2,
+  .kamera-content > h2,
+  .service > h2,
+  .ladd > h2,
+  .easee-content > ul > h2 {
+    font-size: 18px;
+    margin: 30px auto;
+  }
+  .automation > p,
+  .solceller > p,
+  .kamera-content > p,
+  .easee > p,
+  .easee-content > ul > p,
+  .garo-content > ul > p {
+    width: 99%;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .solceller > .video {
+    width: 99%;
+    height: 40vh;
+  }
+  .installation > ul,
+  .service > ul,
+  .easee-content > ul,
+  .garo-content > ul {
+    width: 99%;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .installation > ul > h2 {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  .kamera-content > .video {
+    width: 99%;
+    height: 40vh;
+  }
+  .kamera-content > p {
+    margin-bottom: 10px;
+  }
+  .kamera-img > img {
+    height: 30vh;
+  }
+  .ladd > .ladd-title {
+    padding: 10px;
+  }
+  .ladd > .ladd-title.ltr::after {
+    margin: 0 auto;
+  }
+  .easee > h1,
+  .garo > h1 {
+    padding: 0;
+  }
+}
