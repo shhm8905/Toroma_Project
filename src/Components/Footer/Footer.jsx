@@ -32,16 +32,16 @@ const Footer = () => {
                     <h2 className="footer-title">Meny</h2>
                     <ul className="meny-content">
                         <li>
-                            <NavLink className="a" exact to="/" >Hem</NavLink>
+                            <NavLink className="a" exact to="/Toroma_Project/" >Hem</NavLink>
                         </li>
                         <li>
-                            <NavLink className="a" to="/liftar">Liftar</NavLink>
+                            <NavLink className="a" to="/Toroma_Project/liftar">Liftar</NavLink>
                         </li>
                         <li>
-                            <NavLink className="a" to="/personal">Personal</NavLink>
+                            <NavLink className="a" to="/Toroma_Project/personal">Personal</NavLink>
                         </li>
                         <li>
-                            <NavLink className="a" to="/kontakt">Kontakt</NavLink>
+                            <NavLink className="a" to="/Toroma_Project/kontakt">Kontakt</NavLink>
                         </li>
                     </ul>
                 </div>

@@ -41,10 +41,18 @@
   grid-template-columns: 60% 40%;
   justify-content: center;
 }
-.ring > p > a {
-  color: var(--general-color);
+.ring > p > a,
+.e-post > p > a {
+  color: rgba(184, 181, 181, 0.93);
   display: block;
   text-align: center;
+  transition: color 0.5s ease-in-out;
+}
+.ring > p > a:hover {
+  color: var(--general-color);
+}
+.e-post > p > a:hover {
+  color: var(--general-color);
 }
 .faktura > p > a {
   display: block;

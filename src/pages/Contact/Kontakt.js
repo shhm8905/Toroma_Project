@@ -26,7 +26,7 @@ const Kontakt = () => {
                     </div>
                     <div className="e-post">
                         <h3 className="info-title">E-post Address</h3>
-                        <p>info@toroma.se</p>
+                        <p><a href="mailto:info@toroma.se" ></a> info@toroma.se</p>
                     </div>
                     <div className="faktura">
                         <h3 className="info-title">Faktura adress</h3>
