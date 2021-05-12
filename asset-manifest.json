@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Toroma_Project/static/css/main.fa506bc6.chunk.css",
-    "main.js": "/Toroma_Project/static/js/main.8957deb0.chunk.js",
-    "main.js.map": "/Toroma_Project/static/js/main.8957deb0.chunk.js.map",
+    "main.js": "/Toroma_Project/static/js/main.08578840.chunk.js",
+    "main.js.map": "/Toroma_Project/static/js/main.08578840.chunk.js.map",
     "runtime-main.js": "/Toroma_Project/static/js/runtime-main.5d83d996.js",
     "runtime-main.js.map": "/Toroma_Project/static/js/runtime-main.5d83d996.js.map",
     "static/css/2.7abef457.chunk.css": "/Toroma_Project/static/css/2.7abef457.chunk.css",
     "static/js/2.3924ee27.chunk.js": "/Toroma_Project/static/js/2.3924ee27.chunk.js",
     "static/js/2.3924ee27.chunk.js.map": "/Toroma_Project/static/js/2.3924ee27.chunk.js.map",
     "index.html": "/Toroma_Project/index.html",
-    "precache-manifest.bd6e6ea7f5cbbc657949b267be6788fc.js": "/Toroma_Project/precache-manifest.bd6e6ea7f5cbbc657949b267be6788fc.js",
+    "precache-manifest.0d7cfdd1d1ad2606bfbfddd736a9054a.js": "/Toroma_Project/precache-manifest.0d7cfdd1d1ad2606bfbfddd736a9054a.js",
     "service-worker.js": "/Toroma_Project/service-worker.js",
     "static/css/2.7abef457.chunk.css.map": "/Toroma_Project/static/css/2.7abef457.chunk.css.map",
     "static/css/main.fa506bc6.chunk.css.map": "/Toroma_Project/static/css/main.fa506bc6.chunk.css.map",
@@ -70,6 +70,6 @@
     "static/css/2.7abef457.chunk.css",
     "static/js/2.3924ee27.chunk.js",
     "static/css/main.fa506bc6.chunk.css",
-    "static/js/main.8957deb0.chunk.js"
+    "static/js/main.08578840.chunk.js"
   ]
 }
