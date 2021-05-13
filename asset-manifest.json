@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Toroma_Project/static/css/main.96610513.chunk.css",
-    "main.js": "/Toroma_Project/static/js/main.fe41231d.chunk.js",
-    "main.js.map": "/Toroma_Project/static/js/main.fe41231d.chunk.js.map",
+    "main.js": "/Toroma_Project/static/js/main.608eea30.chunk.js",
+    "main.js.map": "/Toroma_Project/static/js/main.608eea30.chunk.js.map",
     "runtime-main.js": "/Toroma_Project/static/js/runtime-main.5d83d996.js",
     "runtime-main.js.map": "/Toroma_Project/static/js/runtime-main.5d83d996.js.map",
     "static/css/2.7abef457.chunk.css": "/Toroma_Project/static/css/2.7abef457.chunk.css",
-    "static/js/2.3924ee27.chunk.js": "/Toroma_Project/static/js/2.3924ee27.chunk.js",
-    "static/js/2.3924ee27.chunk.js.map": "/Toroma_Project/static/js/2.3924ee27.chunk.js.map",
+    "static/js/2.3c8d1c38.chunk.js": "/Toroma_Project/static/js/2.3c8d1c38.chunk.js",
+    "static/js/2.3c8d1c38.chunk.js.map": "/Toroma_Project/static/js/2.3c8d1c38.chunk.js.map",
     "index.html": "/Toroma_Project/index.html",
-    "precache-manifest.b54f480757e610844c21dae8a0bc2592.js": "/Toroma_Project/precache-manifest.b54f480757e610844c21dae8a0bc2592.js",
+    "precache-manifest.a142d3d8fc1f98a92f1fb9d9f030b8a3.js": "/Toroma_Project/precache-manifest.a142d3d8fc1f98a92f1fb9d9f030b8a3.js",
     "service-worker.js": "/Toroma_Project/service-worker.js",
     "static/css/2.7abef457.chunk.css.map": "/Toroma_Project/static/css/2.7abef457.chunk.css.map",
     "static/css/main.96610513.chunk.css.map": "/Toroma_Project/static/css/main.96610513.chunk.css.map",
@@ -68,8 +68,8 @@
   "entrypoints": [
     "static/js/runtime-main.5d83d996.js",
     "static/css/2.7abef457.chunk.css",
-    "static/js/2.3924ee27.chunk.js",
+    "static/js/2.3c8d1c38.chunk.js",
     "static/css/main.96610513.chunk.css",
-    "static/js/main.fe41231d.chunk.js"
+    "static/js/main.608eea30.chunk.js"
   ]
 }
