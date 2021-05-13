@@ -1,5 +1,6 @@
-import React from "react";
+import React,{useEffect,useState} from "react";
 import {NavLink} from "react-router-dom";
+import pdf from "./ladd.pdf";
 
 import "./Tjanster.css";
 
@@ -21,6 +22,15 @@ import Slider4 from  "../../Components/Slider4/Slider4";
 
 
 const Tjanster = () => {
+    const [download,setDownload]=useState(false);
+
+      useEffect(()=>{
+          if(window.innerWidth<1300){
+              setDownload(true);
+          }else{
+              setDownload(false);
+          }
+      },[]);
     
     return (
 
@@ -173,7 +183,7 @@ const Tjanster = () => {
                             <li>Laddbox monteras på vägg.</li>
                             <li>Ledig plats finns i elcentral för säkringar och jordfelsbrytare för laddboxen  </li>
                             <p>Längre kabeldragning över 10m tillkommer:<br/>- 16A 1-fas eller 3-fas, 130kr/m inkl. arbetstid.<br/><br/><span>Obs !  I alla priserna ör grön rot medräknat.</span></p>
-                            <NavLink to="/Toroma_Project/pdf"><i className="fa fa-file-pdf-o garo-file" aria-hidden="true"></i>&nbsp; Manual Garo Laddbox </NavLink>
+                            {download ? (<a href={pdf} download><i className="fa fa-file-pdf-o faktura-file" aria-hidden="true"></i>&nbsp;Ladda ner Manual Garo Laddbox </a>):(<NavLink to="/Toroma_Project/pdf" download><i className="fa fa-file-pdf-o faktura-file" aria-hidden="true"></i>&nbsp;Visa Manual Garo Laddbox </NavLink>)}
                         </ul>
                         <div className="garo-img">
                             <img alt="im" data-aos="fade-left" src={Ladd4} />

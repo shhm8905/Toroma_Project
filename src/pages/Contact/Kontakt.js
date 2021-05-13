@@ -1,10 +1,21 @@
-import React from "react";
+import React,{useEffect,useState} from "react";
 import "./Kontakt.css";
 import {NavLink} from "react-router-dom";
 import Message from "../../Components/Message/Message";
 import Bread from "../../Components/Bread-crumbs/Bread";
+import pdf1 from "./faktura.pdf";
 
 const Kontakt = () => {
+      const [download,setDownload]=useState(false);
+
+      useEffect(()=>{
+          if(window.innerWidth<1300){
+              setDownload(true);
+          }else{
+              setDownload(false);
+          }
+      },[])
+    
     return (
         <div className="kontakt-container">
             <Bread/>
@@ -34,7 +45,7 @@ const Kontakt = () => {
                         <br />Fack 2202
                         <br />Box 226
                         <br />751 04 Uppsala
-                        <NavLink to="/Toroma_Project/pdf1"><i className="fa fa-file-pdf-o faktura-file" aria-hidden="true"></i>&nbsp; Faktureringsinformation för leverantörer </NavLink>
+                        {download ? (<a href={pdf1} download><i className="fa fa-file-pdf-o faktura-file" aria-hidden="true"></i>&nbsp;Ladda ner Faktureringsinformation för leverantörer </a>):(<NavLink to="/Toroma_Project/pdf1" download><i className="fa fa-file-pdf-o faktura-file" aria-hidden="true"></i>&nbsp;Visa Faktureringsinformation för leverantörer </NavLink>)}
                         </p>
                         
                     </div>
