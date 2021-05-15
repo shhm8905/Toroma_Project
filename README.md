@@ -1,4 +1,4 @@
-#Toroma Automation AB
+# Toroma Automation AB
 
 I have worked as an industrial electrician for two years in this company and there I got the chance to build a new website for them.
 They were very happy and now I have them as a good reference.
